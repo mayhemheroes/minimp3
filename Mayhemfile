@@ -1,0 +1,7 @@
+project: rnshah9/mayhem-minimp3
+target: fuzz-sh
+image: ghcr.io/rnshah9/mayhem-minimp3
+
+cmds:
+  - cmd:  /usr/bin/cat @@
+  # - cmd:  /minimp3/fuzzing/afl/afl-fuzz -m none -i ../vectors/fuzz -o findings ./fuzz
