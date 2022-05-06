@@ -6,6 +6,3 @@ minimp3_arm
 *.gcda
 *.gcno
 *.gcov
-
-fuzzing/afl*
-fuzzing/fuzz
