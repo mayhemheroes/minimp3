@@ -1,8 +1,6 @@
 project: rnshah9/mayhem-minimp3
 
-target: fuzz
-
-image: ghcr.io/rnshah9/mayhem-minimp3
+target: fuzz-minimp3
 
 tests:
   - file://vectors
